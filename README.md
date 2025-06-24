@@ -1,0 +1,28 @@
+# Task 2: Analyze a Phishing Email
+
+## 🎯 Objective:
+To identify phishing traits in a fake email and understand how phishing attacks trick users.
+
+---
+
+## 📂 Files Included:
+- `task-2.txt` – Sample phishing email with detailed analysis
+
+---
+
+## 📌 Highlights:
+
+- Detected spoofed email domain (`amaz0n-secure.com`)
+- Found a suspicious login link using character tricks
+- Recognized urgency and fear-based wording
+- Noted signs of social engineering and grammar issues
+
+---
+
+## ⚠️ Note:
+This analysis was done on a **public fake phishing email sample** for training and learning purposes only.
+
+---
+
+## 🔐 Learnings:
+Understanding these indicators helps protect users from online scams and builds basic cyber-awareness.
