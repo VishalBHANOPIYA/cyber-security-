@@ -1,0 +1,11 @@
+CyberSec_Task4_Firewall_Configuration/
+├── screenshots/
+│   ├── ufw_status_before.png
+│   ├── block_port_23.png
+│   ├── allow_port_22.png
+│   ├── allow_port_80.png          
+│   ├── allow_port_443.png         
+│   ├── test_connection.png
+│   └── ufw_status_after.png
+├── README.md
+└── firewall_commands.txt
