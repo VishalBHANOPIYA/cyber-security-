@@ -1,0 +1,15 @@
+ Brute-force attack: Tries every possible combination to guess the password.
+
+ Dictionary attack: Uses a list of common words and passwords to guess.
+
+ Password length matters: Longer passwords take more time to crack.
+
+ Complexity helps: Use a mix of symbols, numbers, uppercase, and lowercase.
+
+ Passphrases: Sentences or phrases that are strong and easy to remember.
+
+ Avoid reuse: Never use the same password for multiple accounts.
+
+ Multi-Factor Authentication (MFA): Adds an extra step like OTP or fingerprint for better security.
+
+ Password managers: Help generate and store strong, unique passwords safely....
