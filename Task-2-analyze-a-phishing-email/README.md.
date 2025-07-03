@@ -1,0 +1,42 @@
+📧 SAMPLE PHISHING EMAIL:
+
+From: Amazon Support <support@amaz0n-secure.com>  
+Subject: Your Amazon Account is at Risk!
+
+Dear User,
+
+We noticed suspicious activity in your Amazon account.  
+Please verify your identity immediately by clicking the secure link below:
+
+🔗 https://amaz0n-secure.com/verify
+
+If verification is not completed in 24 hours, your account will be permanently suspended.
+
+Thanks,  
+Amazon Security Team
+
+---
+
+🔍 ANALYSIS OF PHISHING INDICATORS:
+
+1. ⚠️ Spoofed Sender Email:  
+   - Real Amazon domain is `amazon.com`, but here it's `amaz0n-secure.com`.
+
+2. 🔗 Fake Link:  
+   - The URL uses a "0" instead of "o" in "amazon", a trick to mislead users.
+
+3. ❗ Urgent/Scary Language:  
+   - “Your account is at risk!” and “permanently suspended” adds panic.
+
+4. 📛 Generic Greeting:  
+   - Starts with “Dear User”, not personalized.
+
+5. ✍️ Grammar Issues:  
+   - Slightly awkward phrasing — signs of low-quality phishing mail.
+
+6. 🔐 No verification through official Amazon app or domain.
+
+✅ Conclusion:  
+This email is fake and meant to **trick users into clicking a malicious link** and entering their login details.
+
+Never trust URLs with misspellings, and always verify sender domains.
