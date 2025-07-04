@@ -1,0 +1,71 @@
+# 🛡️ Task 8: Working with VPNs
+
+## 🎯 Objective
+To understand how Virtual Private Networks (VPNs) protect privacy, secure communication over public networks, and evaluate their performance through practical implementation.
+
+---
+
+## 🧰 Tools Used
+
+- 🔐 **ProtonVPN (Free Tier)**
+- 🖥️ **Kali Linux** (for all commands & testing)
+- 🌍 [whatismyipaddress.com](https://whatismyipaddress.com) – to verify IP before/after
+- 📸 Screenshots – for IP check & VPN terminal output
+
+---
+
+## 🪜 Steps Performed
+
+1. ✅ Signed up for a free ProtonVPN account.
+2. 📥 Installed ProtonVPN CLI using terminal on Kali Linux.
+3. 🔌 Connected to a VPN server (I selected **Netherlands**).
+4. 🌐 Verified IP address before and after connection using:
+   - `curl ifconfig.me`
+   - [https://whatismyipaddress.com](https://whatismyipaddress.com)
+5. 🔒 Visited secure websites (HTTPS) to check encrypted browsing.
+6. 📶 Disconnected and checked difference in browsing speed.
+7. 📚 Researched VPN protocols, encryption, benefits & limitations.
+
+---
+
+## 📎 Connection Status
+
+- ✅ ProtonVPN connected successfully via CLI
+- 🌍 Server Location: **Netherlands**
+- 🔐 Protocol: **OpenVPN (AES-256-CBC)**
+- 🌐 New IP Address: `185.xxx.xxx.xxx` (masked real IP)
+
+📸 **Included Screenshots**:
+- `ip-before.png` – Original IP address
+- `ip-after.png` – IP after VPN connection
+- `vpn-connected-terminal.png` – ProtonVPN CLI output
+
+---
+
+## 📘 What I Learned
+
+- VPNs encrypt all internet traffic, protecting from ISP, hackers, trackers.
+- They help mask real IP address and allow safe browsing in public networks.
+- Free VPNs are good for basic use, but can limit speed & server choice.
+- Encryption protocols like **OpenVPN** and **WireGuard** make VPNs secure.
+
+---
+
+## ❓ Interview Q&A
+
+| Question | Answer |
+|---------|--------|
+| What is a VPN? | A Virtual Private Network that securely tunnels internet traffic. |
+| How does a VPN protect privacy? | It encrypts data and hides your IP address. |
+| VPN vs Proxy? | VPN encrypts all data; Proxy only works at app level and isn’t encrypted. |
+| What is VPN encryption? | It secures traffic using protocols like OpenVPN, WireGuard. |
+| Can VPNs ensure complete anonymity? | Not completely, but they improve privacy significantly. |
+| VPN Protocols? | OpenVPN, WireGuard, IKEv2/IPSec, L2TP, PPTP |
+| VPN Limitations? | Speed drop, limited servers on free plans, legal blocks in some countries. |
+| VPN effect on speed? | VPN causes slight latency due to encryption overhead. |
+
+---
+
+## ✅ Outcome
+
+> This hands-on task helped me practically understand the importance of VPNs in digital security. I successfully connected to ProtonVPN on Kali Linux and verified encrypted IP masking. It enhanced my understanding of protocols, encryption, and real-time VPN behavior.
